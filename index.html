@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MetaRoboLearn Workshop</title>
+  <style>
+    html { scroll-behavior: smooth; }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #fff;
+    }
+    .container {
+      width: 90%;
+      max-width: 75rem;
+      margin: 0 auto;
+      padding: 1rem 0;
+    }
+    header {
+      padding: 1.25rem 0;
+      border-bottom: 1px solid #ddd;
+    }
+    .logo-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.25rem;
+    }
+    #logo {
+      width: 9.375rem;
+      height: auto;
+    }
+    #conference-image {
+      width: 21rem;
+      object-fit: contain;
+    }
+    h1 {
+      font-size: 1.75rem;
+      margin: 1rem 0;
+      color: #222;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover { color: #5fa012; }
+    section { padding: 3.75rem 0; }
+    h2, h3 {
+      margin-bottom: 1.25rem;
+      color: #5fa012;
+    }
+    p { margin-bottom: 0.9375rem; }
+    ul { margin-left: 1.25rem; margin-bottom: 0.9375rem; list-style: disc inside; }
+    .flex { display: flex; flex-wrap: wrap; gap: 1.25rem; }
+    .card {
+      background: #fafafa;
+      padding: 0.9375rem;
+      border: 1px solid #e0e0e0;
+      border-radius: 0.5rem;
+      flex: 1;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 1.25rem 0;
+      border-top: 1px solid #ddd;
+      font-size: 0.875rem;
+      color: #555;
+    }
+    @media (max-width: 768px) {
+      .logo-container { justify-content: center; flex-direction: column; }
+      h1 { font-size: 1.5rem; }
+      nav ul { flex-direction: column; gap: 0.75rem; }
+      section { padding: 2.5rem 0; }
+      .flex { flex-direction: column; }
+      .card { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container logo-container">
+      <img id="logo" src="workshop-logo.svg" alt="Workshop Logo">
+      <img id="conference-image" src="conference-logo.png" alt="Conference Image">
+    </div>
+    <h1>The 1st ICCE Workshop on Seamless Learning with Educational Robots and Metaverse Technology (MetaRoboLearn)</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#call">Call for Papers</a></li>
+        <li><a href="#topics">Topics</a></li>
+        <li><a href="#submission">Submission</a></li>
+        <li><a href="#details">Details</a></li>
+        <li><a href="#organizers">Organizers</a></li>
+        <li><a href="#committee">Program Committee</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <section id="about">
+      <h2>About the Workshop</h2>
+      <p>The workshop explores the field of computer-supported learning based on the seamless learning approach through educational robotics and metaverse technology. It aims to connect formal, informal, and non-formal learning environments by enabling smooth transitions between real and virtual worlds. The project focuses on the integration of heterogeneous technologies such as Virtual Reality/Augmented Reality, educational robotics, and smart devices into a unified learning experience. A particular focus is on supporting individual and collaborative learning to help learners actively engage in different contexts.</p>
+    </section>
+    <section id="call">
+      <h2>Call for Workshop Papers</h2>
+      <p>We invite researchers and practitioners to submit their work to the MetaRoboLearn Workshop, which explores the intersection of seamless learning, metaverse technologies, and educational robotics. The workshop aims to advance our understanding of how emerging technologies can support continuous, immersive, and adaptive learning across real and virtual contexts.</p>
+      <p>We welcome contributions that address the design, implementation, and evaluation of technology-enhanced learning environments that enable smooth transitions between formal, informal, and non-formal educational settings. A special focus is placed on the role of educational robotics and metaverse technologies in supporting both individual and collaborative learning, leveraging tools such as Virtual Reality/Augmented Reality, Smart Devices &amp; IoT Integration, Robot Control &amp; Simulation, and Artificial Intelligence.</p>
+    </section>
+    <section id="topics">
+      <h2>Topics of Interest</h2>
+      <ul>
+        <li>Designing seamless learning environments that integrate real and virtual contexts through metaverse technologies</li>
+        <li>Promoting learner agency and motivation through robotics and metaverse-driven learning experiences</li>
+        <li>Applications of educational robotics to foster individual and collaborative learning in immersive and metaverse-enhanced environments</li>
+        <li>Pedagogical strategies to support learning in formal, informal, and non-formal contexts in the metaverse</li>
+        <li>Perspectives and professional development of educators for the implementation of metaverse-based educational technologies</li>
+        <li>Digital Twin and Simulation-Based Learning for Robotics in the Metaverse</li>
+        <li>Data analytics for tracking learners’ engagement and performance in physical, digital, and metaverse contexts</li>
+        <li>Learner modeling and personalization in metaverse-based learning environments</li>
+        <li>Use of AI in learning experiences in seamless and metaverse learning</li>
+        <li>Feedback mechanisms in seamless and metaverse learning</li>
+        <li>Designing inclusive and accessible metaverse-based learning environments</li>
+        <li>Evaluation frameworks and experimental methods for studying learning outcomes and human-technology interaction in the metaverse</li>
+        <li>Ethical, privacy, and safety considerations in metaverse-based learning with robotics</li>
+      </ul>
+    </section>
+    <section id="submission">
+      <h2>Submission Categories</h2>
+      <ul>
+        <li><strong>Design papers:</strong> Prototype systems or curricular innovations supporting seamless transitions between real and virtual contexts.</li>
+        <li><strong>Evaluation papers:</strong> Empirical research on the effectiveness of metaverse-based learning or educational robotics.</li>
+        <li><strong>Practitioner papers:</strong> Implementation reports of metaverse technologies or educational robotics in practice.</li>
+        <li><strong>Position papers:</strong> Theoretical or conceptual perspectives on the role of the metaverse and educational robotics in learning.</li>
+        <li><strong>Analytics papers:</strong> Multimodal data analysis or AI-driven investigations of learning processes in metaverse environments.</li>
+      </ul>
+    </section>
+    <section id="details">
+      <h2>Workshop Details</h2>
+      <p><strong>Format:</strong> Half-day workshop with a maximum of 10 accepted papers (presentations + discussions). Online participation will be available for registered attendees.</p>
+      <p><strong>Expected Attendees:</strong> 25–50 participants, including organizers, presenters, discussants, and general audience.</p>
+    </section>
+    <section id="organizers">
+      <h2>Workshop Organizers</h2>
+      <div class="flex">
+        <div class="card">
+          <h3>Ivica Botički</h3>
+          <p><em>University of Zagreb, Croatia</em></p>
+          <p>Full Professor &amp; Head of Applied Computing Department. Research interests: technology-enhanced learning, AI in education, ML, NLP. Chair/co-chair at multiple ICCE editions.<br><a href="mailto:ivica.boticki@fer.hr">ivica.Boticki@fer.hr</a></p>
+        </div>
+        <div class="card">
+          <h3>Martina Holenko Dlab</h3>
+          <p><em>University of Rijeka, Croatia</em></p>
+          <p>Associate Professor &amp; Head of Multimedia Systems &amp; E-learning Chair. Research: technology-enhanced learning, blended learning, recommender systems, CSCL, game-based learning. ICCE TEML co-chair.<br><a href="mailto:mholenko@inf.uniri.hr">mholenko@inf.uniri.hr</a></p>
+        </div>
+        <div class="card">
+          <h3>Rwitajit Majumdar</h3>
+          <p><em>Kumamoto University, Japan</em></p>
+          <p>Associate Professor, Research &amp; Educational Institute for Semiconductors &amp; Informatics. Research: learning analytics, HCI, data-driven services in education. Co-organizer of ICCE Learning Analytics &amp; Embodied Learning workshops.<br><a href="mailto:majumdar@kumamoto-u.ac.jp">majumdar@kumamoto-u.ac.jp</a></p>
+        </div>
+      </div>
+    </section>
+    <section id="committee">
+      <h2>Prospective Program Committee</h2>
+      <ul>
+        <li>Alice Mei Rong Chen (Soochow University, Taiwan)</li>
+        <li>Chandan Dasgupta (University of Twente, Netherlands)</li>
+        <li>Huiyong Li (Kyushu University, Japan)</li>
+        <li>Daner Sun (The Education University, Hong Kong)</li>
+        <li>Chee-Kit Looi (The Education University, Hong Kong)</li>
+        <li>Peter Seow (National Institute of Education, Singapore)</li>
+        <li>Kristian Stancin (University of Rijeka, Croatia)</li>
+        <li>Gordan Đurović (University of Rijeka, Croatia)</li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 MetaRoboLearn Workshop. All rights reserved.</p>
+  </footer>
+</body>
+</html>
